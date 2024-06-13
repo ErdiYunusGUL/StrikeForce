@@ -2150,6 +2150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 0.03
+  player1: {fileID: 1328807070}
+  opponent: {fileID: 889002423}
+  oppPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1776039907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,6 +2701,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1777365680}
   - {fileID: 490594318}
+  - {fileID: 1777365680}
   - {fileID: 1397620104}
